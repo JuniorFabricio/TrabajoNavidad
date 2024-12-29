@@ -61,10 +61,10 @@ body {
 }
 .article2 {
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 120px;
   flex: 1;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 400px;
   border: 2px solid;
   background-color: black;
   border-radius: 20px;
@@ -76,10 +76,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .bio {
-  border-radius: 40px;
+  border-radius: 20px;
   background-color: white;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
   margin: 15px auto;
 }
 .footer {

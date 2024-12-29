@@ -1,5 +1,31 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 16px;
+}
+
+.bodyss {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+.header {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  background-color: blue;
+  flex: 1;
+}
+footer {
+  background-color: green;
+
 }

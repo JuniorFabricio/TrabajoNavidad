@@ -21,8 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100px;
-  gap: 10px
-  ;
+  gap: 10px;
 }
 .titulo {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -54,7 +53,7 @@ body {
 }
 .article1 {
   flex: 1;
-    max-width: 685px;
+  max-width: 685px;
   border: 2px solid;
 }
 .article2 {
@@ -65,7 +64,7 @@ footer {
   background-color: black;
   color: white;
 }
-img{
-    width: 681px;
-    height: 450px;
+img {
+  width: 681px;
+  height: 450px;
 }

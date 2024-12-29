@@ -14,7 +14,6 @@ body {
   height: 100vh;
 }
 .header {
-    
   background-color: black;
   color: white;
   display: flex;
@@ -22,6 +21,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100px;
+}
+.titulo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .barra ul {
   display: flex;
@@ -34,10 +37,27 @@ body {
 .barra ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .main {
-  background-color: blue;
   flex: 1;
+}
+
+.maindboyd {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 100px;
+}
+.article1 {
+  flex: 1;
+
+  border: 2px solid;
+}
+.article2 {
+  flex: 1;
+  border: 2px solid;
 }
 footer {
   background-color: green;

@@ -43,9 +43,12 @@ body {
 }
 .main {
   flex: 1;
+  background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-fluid-black-and-white-two-color-striped-lines-picture-image_1307638.jpg");
+  background-size: cover;
 }
 
 .maindboyd {
+  
   display: flex;
   flex-direction: row;
   gap: 20px;

@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+}
+
+.bodyss {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  gap: 10px;
+}
+
+.barra ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.barra ul li {
+  list-style: none;
+}
+
+.barra ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  flex: 1;
+  background-color: #f4f4f4; /* Fondo neutral, se puede cambiar */
+}
+
+.maindboyd {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 100px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}

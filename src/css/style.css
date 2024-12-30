@@ -116,15 +116,8 @@ img {
   height: 450px;
   overflow: hidden;
 } */
-.titulo {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
 
-.barra ul li a {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+
 
 .article1 {
   flex: 0.5;

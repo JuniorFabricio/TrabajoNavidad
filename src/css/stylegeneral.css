@@ -11,6 +11,19 @@ body {
   font-size: 16px;
   height: 100%;
 }
+.titulo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.barra ul li a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.barra ul li a .active {
+  text-decoration: underline; /* Asegura que el texto esté subrayado */
+  text-decoration-color: #007bff; /* Especifica el color del subrayado */
+  text-decoration-thickness: 2px; /* Opcional: Define el grosor del subrayado */
+}
 
 .bodyss {
   display: flex;
@@ -46,7 +59,8 @@ body {
 
 .main {
   flex: 1;
-  background-color: #f4f4f4; /* Fondo neutral, se puede cambiar */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/014/720/208/non_2x/paper-cut-art-background-texture-wave-paper-cut-map-line-of-topography-cartography-concept-background-geometric-layered-curve-line-black-white-design-free-vector.jpg");
+  background-size: cover;
 }
 
 .maindboyd {

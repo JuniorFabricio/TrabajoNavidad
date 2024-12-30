@@ -58,6 +58,7 @@ body {
 .article1 {
   flex: 0.5;
   margin-left: 90px;
+  overflow: hidden;
 }
 .article2 {
   margin-left: 100px;
@@ -82,11 +83,25 @@ body {
   height: 300px;
   margin: 15px auto;
 }
+.textbio {
+  color: black;
+
+  padding: 10px;
+  line-height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.article2 .bio .textbio .sabermasInicio{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .footer {
-  flex: 1;
   background-color: black;
+  flex: 1;
+
   color: white;
-  max-height: 100px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -99,4 +114,5 @@ img {
   margin-left: 70px;
   width: 681px;
   height: 450px;
+  overflow: hidden;
 }

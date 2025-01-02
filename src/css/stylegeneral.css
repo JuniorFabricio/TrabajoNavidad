@@ -19,10 +19,8 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.barra ul li a .active {
- 
-  background-color: red;
- 
+.active {
+  background-color: blue;
 }
 
 .bodyss {

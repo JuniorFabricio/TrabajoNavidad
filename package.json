@@ -12,10 +12,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel": "^2.13.3",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.13.3"
   },
   "dependencies": {
-    "simple-slider": "^1.0.1"
+    "simple-slider": "^1.0.1",
+    "vis-timeline": "^7.7.3"
   }
 }

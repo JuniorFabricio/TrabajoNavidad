@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stylegeneral.css" />
+    <link rel="stylesheet" href="css/stylebiografia.css" />
     <title>Modelo Estructura</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
         <nav class="barra">
           <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Biografía</a></li>
+            <li><a href="#" class="active">Biografía</a></li>
             <li><a href="#">Logros</a></li>
             <li><a href="#">Galería</a></li>
             <li><a href="#">Contacto</a></li>
@@ -23,13 +24,14 @@
         </nav>
       </div>
       <div class="main">
-        <main class="maindboyd">
-          <!-- Aquí irá el contenido principal -->
-        </main>
+       <div id="timeline" class="timelinecolor"></div>
       </div>
       <footer class="footer">
         <p>@By created for Junior Fabricio</p>
       </footer>
     </div>
+  
+    <script src="js/timeline.js" type="module"></script>
   </body>
+  
 </html>

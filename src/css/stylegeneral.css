@@ -20,9 +20,9 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 .barra ul li a .active {
-  text-decoration: underline; /* Asegura que el texto esté subrayado */
-  text-decoration-color: #007bff; /* Especifica el color del subrayado */
-  text-decoration-thickness: 2px; /* Opcional: Define el grosor del subrayado */
+ 
+  background-color: red;
+ 
 }
 
 .bodyss {

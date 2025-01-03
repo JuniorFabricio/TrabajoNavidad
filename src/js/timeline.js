@@ -10,29 +10,105 @@ document.addEventListener("DOMContentLoaded", function () {
   // Crear un contenedor para la línea de tiempo
   const container = document.getElementById("timeline");
 
-  // Definir los datos de la línea de tiempo (eventos de la vida de Paulo Londra)
+  // Definir los datos de la línea de tiempo (logros de Paulo Londra)
   const items = new DataSet([
-    { id: 1, content: "Nace en Córdoba", start: "1998-04-12" },
-    { id: 2, content: "Primer sencillo", start: "2017-01-01" },
-    { id: 3, content: "Debut en trap", start: "2018-05-20" },
-    { id: 4, content: "Gran regreso", start: "2022-03-23" },
+    { 
+      id: 1, 
+      content: `
+        <div>
+          <img src="https://i.ytimg.com/vi/LE6VEavHWSY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAqMIv4CXjThSi9YPLNlmwJiRZe4Q" alt="Lanzamiento de Relax" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Lanzamiento de 'Relax', su primer sencillo (10M+ visitas)</p>
+        </div>`, 
+      start: "2017-01-01" 
+    },
+    { 
+      id: 2, 
+      content: `
+        <div>
+          <img src="https://i.scdn.co/image/ab67616d0000b27344de3fd4618260574d905bcc" alt="Adán y Eva" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>'Adán y Eva' alcanzó el #1 en el Billboard Argentina (1B+ vistas)</p>
+        </div>`, 
+      start: "2018-11-05" 
+    },
+    { 
+      id: 3, 
+      content: `
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJr2XTtyYZICN5vkC_m54L_RkWdt9znH8yQ&s" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Primer argentino en entrar al Top 10 Global de Spotify</p>
+        </div>`, 
+      start: "2018-12-01" 
+    },
+    { 
+      id: 4, 
+      content: `
+        <div>
+          <img src="https://images.genius.com/dec308840cd0c74909cb995e4bee15ee.1000x1000x1.jpg" alt="Homerun" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Lanzamiento de 'Homerun', debutando en #12 del Billboard Top Latin Albums</p>
+        </div>`, 
+      start: "2019-05-23" 
+    },
+    { 
+      id: 5, 
+      content: `
+        <div>
+          <img src="path-to-image/nothing-on-you.jpg" alt="Colaboración con Ed Sheeran" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Primer artista argentino en colaborar con Ed Sheeran ('Nothing on You')</p>
+        </div>`, 
+      start: "2019-07-12" 
+    },
+    { 
+      id: 6, 
+      content: `
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2qUoy88yj_BgO3YpRjGLv32rDq8GY6snuQ&s" alt="Plan A" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Récord de reproducciones en Spotify con 'Plan A' (5M+ en 24 horas)</p>
+        </div>`, 
+      start: "2022-03-23" 
+    },
+    { 
+      id: 7, 
+      content: `
+        <div>
+          <img src="https://cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/SN3JVXF4NVGWHCJQFZ7JBOFC3Y.jpg" alt="Premio Gardel" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Ganó el Premio Gardel por 'Adán y Eva'</p>
+        </div>`, 
+      start: "2019-06-01" 
+    },
+    { 
+      id: 8, 
+      content: `
+        <div>
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/95/7a/e9/957ae966-788e-6dae-56fe-d7b94e3c7383/5054197442223.jpg/600x600bf-60.jpg" alt="Back to the Game" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Lanzamiento de 'Back to the Game', su segundo álbum</p>
+        </div>`, 
+      start: "2022-11-23" 
+    },
+    { 
+      id: 9, 
+      content: `
+        <div>
+          <img src="image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…DuaK5RQBRRRQBXRRRQBRRRQBRRRQBRRRQBRk9aKKAKKKKA//Z" alt="YouTube Record" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Más de 1.5B vistas acumuladas en YouTube</p>
+        </div>`, 
+      start: "2022-01-01" 
+    },
+    { 
+      id: 10, 
+      content: `
+        <div>
+          <img src="path-to-image/viral-tiktok.jpg" alt="TikTok Viral" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <p>Viralidad en TikTok con canciones como 'Nena Maldición'</p>
+        </div>`, 
+      start: "2020-01-01" 
+    },
   ]);
 
   // Opciones de la línea de tiempo
   const options = {
     width: "100%", // Ancho de la línea de tiempo
-    height: "300px", // Ajustar la altura para hacerlo más pequeño
+    height: "500px", // Altura ajustada para destacar más
     editable: false, // Hacerla no editable
-    margin: {
-      item: { horizontal: 0, vertical: 0 },
-    },
-    // Opciones de fondo y texto
-    
-    itemStyle: "box", // Caja para los elementos
-    itemAlign: "center", // Alineación central de los elementos
-    axisFormat: "YYYY", // Formato del eje de tiempo
-    color:"white",
-  
   };
 
   // Crear la línea de tiempo con los datos y opciones

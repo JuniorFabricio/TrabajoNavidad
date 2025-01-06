@@ -52,16 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 5, 
       content: `
         <div>
-          <img src="path-to-image/nothing-on-you.jpg" alt="Colaboración con Ed Sheeran" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2qUoy88yj_BgO3YpRjGLv32rDq8GY6snuQ&s" alt="Colaboración con Ed Sheeran" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
           <p>Primer artista argentino en colaborar con Ed Sheeran ('Nothing on You')</p>
         </div>`, 
       start: "2019-07-12" 
     },
     { 
+    
       id: 6, 
       content: `
         <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2qUoy88yj_BgO3YpRjGLv32rDq8GY6snuQ&s" alt="Plan A" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <img src="https://i.pinimg.com/736x/90/8a/fc/908afc0cd23d4601d4538948b71efa32.jpg" alt="Plan A" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
           <p>Récord de reproducciones en Spotify con 'Plan A' (5M+ en 24 horas)</p>
         </div>`, 
       start: "2022-03-23" 
@@ -88,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 9, 
       content: `
         <div>
-          <img src="image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…DuaK5RQBRRRQBXRRRQBRRRQBRRRQBRRRQBRk9aKKAKKKKA//Z" alt="YouTube Record" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <img src="https://img.youtube.com/vi/hJaD8ulcR9E/maxresdefault.jpg" alt="YouTube Record" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
           <p>Más de 1.5B vistas acumuladas en YouTube</p>
         </div>`, 
       start: "2022-01-01" 
@@ -97,14 +98,14 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 10, 
       content: `
         <div>
-          <img src="path-to-image/viral-tiktok.jpg" alt="TikTok Viral" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7U9Vydf-t3XEkpy_ASJ9W8JbbMVQEe_bhQ&s" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
           <p>Viralidad en TikTok con canciones como 'Nena Maldición'</p>
         </div>`, 
       start: "2020-01-01" 
     },
   ]);
 
-  // Opciones de la línea de tiempo
+
   const options = {
     width: "100%", // Ancho de la línea de tiempo
     height: "500px", // Altura ajustada para destacar más

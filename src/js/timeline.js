@@ -1,16 +1,16 @@
-// Importar el CSS de Vis.js
+
 import 'vis-timeline/styles/vis-timeline-graph2d.min.css';
 
-// Importar correctamente los objetos necesarios desde el módulo de vis-timeline
+
 import { DataSet } from 'vis-data';
 import { Timeline } from 'vis-timeline/standalone';
 
-// Esperar a que el DOM esté completamente cargado
+
 document.addEventListener("DOMContentLoaded", function () {
-  // Crear un contenedor para la línea de tiempo
+
   const container = document.getElementById("timeline");
 
-  // Definir los datos de la línea de tiempo (logros de Paulo Londra)
+ 
   const items = new DataSet([
     { 
       id: 1, 

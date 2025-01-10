@@ -1,24 +1,25 @@
-.galeria {
-  margin-top: 20px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.galeria-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas grandes */
-  gap: 20px;
-}
-
- img {
+.galeria-flex {
+  margin-top: 100px;
   width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.foto-galeria img {
+  width: 250px; 
+  height: auto; 
+  border-radius: 5px; 
 
 }
+
+.foto-galeria img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer; /* Añadido para indicar que las imágenes son interactivas */
+  transition: transform 0.3s ease; /* Para un pequeño efecto de transición */
+}
+

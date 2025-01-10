@@ -17,5 +17,6 @@
   "dependencies": {
     "simple-slider": "^1.0.1",
     "vis-timeline": "^7.7.3"
+    
   }
 }

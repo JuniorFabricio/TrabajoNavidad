@@ -1,12 +1,9 @@
 .galeria-flex {
-  margin-top: 100px;
+  margin-top: 250px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 10px; 
-  justify-content: center; 
-  flex-wrap: wrap; 
+ 
 }
+
 
 .foto-galeria img {
   width: 250px; 
@@ -14,12 +11,3 @@
   border-radius: 5px; 
 
 }
-
-.foto-galeria img {
-  width: 250px;
-  height: auto;
-  border-radius: 5px;
-  cursor: pointer; /* Añadido para indicar que las imágenes son interactivas */
-  transition: transform 0.3s ease; /* Para un pequeño efecto de transición */
-}
-

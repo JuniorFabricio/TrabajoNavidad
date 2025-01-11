@@ -76,3 +76,10 @@ body {
   justify-content: center;
   height: 60px;
 }
+
+@media (max-width: 600px) {
+  .barra ul {
+    display: block;
+
+  }
+}

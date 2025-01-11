@@ -5,7 +5,7 @@ import 'flickity/css/flickity.css';
 const gallery = document.querySelector('.galeria-flex');
 
 
-const flickityOptions = {
+const Options = {
   cellAlign: 'center', 
   contain: true,       
   wrapAround: true,  
@@ -15,7 +15,7 @@ const flickityOptions = {
 };
 
 
-if (gallery) {
-  const flickityInstance = new Flickity(gallery, flickityOptions);
-  console.log('Flickity initialized:', flickityInstance);
-}
+
+  const flickity = new Flickity(gallery, Options);
+
+
